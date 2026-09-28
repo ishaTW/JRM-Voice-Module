@@ -1,0 +1,545 @@
+#include <DHT.h>
+#include <dht.h> // Existing import for DHT sensor
+
+// Pin and Sensor Configuration
+#define dht_apin 2          // DHT22 data pin
+#define DHTTYPE DHT22       // DHT 22 (AM2302)
+#define CO_SENSOR_PIN A0    // MQ-7 CO sensor pin
+#define PM25_SENSOR_PIN A1  // PM2.5 sensor pin (single analog pin)
+#define SOUND_SENSOR_PIN A2 // Sound sensor pin
+
+DHT dht(dht_apin, DHTTYPE); // Initialize DHT22
+
+// Variables
+float h, t, coVoltage, pm25Value, soundLevel;
+int sensorValueSound = 0, voltage, countv = 0, remote_interval = 19, sensorValuemax = 0, sensorValuemin = 0;
+int dB, ledstatusflag = 0, ActVolt = 0, sample1 = 0, count = 0, sensorValueBat = 0;
+boolean flag = 0;
+String str = "", str1 = "", NUCcmd;
+int v, o, c = 0, LEDScreenstate = 0, count1 = 0, counttx = 0, NewMainsCntr = 0, ACKCount = 0;
+float cum_sample = 0.0, avg = 0.0, milivoltage = 0.0, percentage = 0.0, Batvoltage = 0.0;
+const byte ledPin = 13, interruptPin = 3, interruptPin2 = 4, interruptPin3 = 5, interruptPin4 = 14;
+volatile byte state = LOW;
+int BuzzPin = 12, inPin1 = 7, val1 = 0, val2 = 0, intSOS = 0, IntTmr = 0, DeviceON = 0, DeviceOF = 0, RelayTV = 9, RelayNUC = 8, RelayLED = 6;
+int timer = 0, RelayTrip1min = 0, sample = 0, inPON = 0, IGNON = 0, inPOF = 0, IGNOFF = 0, NewIGNOff = 0, NewIgnioffCntr = 0;
+String ArdCodeVersion = String("ARDVPole3.0 10102024\r\n");
+String DevON = String("#DEVICEON#"), DevOFF = String("#DEVICEOFF#"), NUCON = String("#NUCPOWERON#"), AckKeepON = String("$ACKKEEPON#");
+String ledON = String("#SWITCHON#"), ledOFF = String("#SWITCHOFF#"), ACKOFF = String("#ACKIGNOFF#"), KeepON = String("#KEEPON#"), CVcommand = String("#CODEVERSION#");
+int TurnOffTime = 235, RelayOfftime = 38, RelayONTime = 65, inNUCOFF = 0, ACKIGNOFF = 0, IGNOFFcount = 0, IntTmrOFF = 0;
+
+void setup() {
+  Serial.begin(9600);
+  dht.begin();
+  
+  pinMode(ledPin, OUTPUT);
+  pinMode(inPin1, INPUT);
+  pinMode(interruptPin, INPUT_PULLUP);
+  pinMode(interruptPin2, INPUT_PULLUP);
+  pinMode(interruptPin3, INPUT_PULLUP);
+  pinMode(interruptPin4, INPUT_PULLUP);
+  pinMode(BuzzPin, OUTPUT);
+  digitalWrite(BuzzPin, LOW);
+  pinMode(RelayLED, OUTPUT);
+  digitalWrite(RelayLED, LOW);
+  pinMode(RelayTV, OUTPUT);
+  digitalWrite(RelayLED, HIGH);
+  pinMode(RelayNUC, OUTPUT);
+  digitalWrite(RelayNUC, HIGH);
+
+  attachInterrupt(digitalPinToInterrupt(interruptPin), AMB, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(interruptPin2), FIR, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(interruptPin3), PLC, CHANGE);
+  attachInterrupt(digitalPinToInterrupt(interruptPin4), Panic, CHANGE);
+}
+
+void loop() {
+
+  String stringOne = "";
+  char *retstr;
+  long int decimalNumber = 0, remainder, quotient = 0;
+  int i = 0, j = 0, k = 0, l = 0, m = 0, temp = 0;
+  int a1 = 0, b2 = 0, c3 = 0;
+  int StrLen1 = 0;
+  char tempbuff[20] = {'\0'};
+  String testbuff = "";
+  String dummyhexNum = "";
+  String catstring = "";
+
+  // **DHT22 Sensor Readings**
+  h = dht.readHumidity();
+  t = dht.readTemperature();
+
+  if (IntTmr >= 2)
+  {
+    IntTmr = 0;
+    intSOS = 0;
+    digitalWrite(BuzzPin, LOW);    // sets the LED off
+  }
+  IntTmr++;
+ 
+  if ((inPOF == 1) && (inNUCOFF == 1))
+  {
+    // Serial.print("Shuting Down");
+    // Serial.print(IntTmrOFF);
+
+    if (IntTmrOFF == 115)
+    {
+      digitalWrite(RelayNUC, LOW); // sets the NUC OFF
+      digitalWrite(RelayTV, LOW); // sets the TV OFF
+      IntTmrOFF++;
+      inNUCOFF=0;
+      RelayTrip1min = 0;
+    }
+    if (IntTmrOFF < 116)
+    {
+      IntTmrOFF++;
+    }
+  }
+
+  while (Serial.available())
+  {
+    NUCcmd = Serial.readString(); // read the incoming data as string
+    Serial.println(NUCcmd);
+
+    if (NUCcmd.equals(DevON))
+    {
+      //digitalWrite(Relay, LOW);    //Turn on relay  Relay
+      //digitalWrite(RelayTV, HIGH);    //Turn on relay  RelayTV
+       digitalWrite(RelayTV, LOW);    //Turn on relay  RelayTV  updated22072022
+     // digitalWrite(RelayNUC, HIGH); // sets the NUC ON
+       digitalWrite(RelayNUC, LOW); // sets the NUC ON    updated22072022
+    }
+
+    else if (NUCcmd.equals(CVcommand))
+    {
+      Serial.print(ArdCodeVersion);
+      //Serial.print("\r\n");
+    }
+
+    else if (NUCcmd.equals(ledON))
+   
+    {
+      digitalWrite(RelayLED, LOW); // sets the LED ON
+      Serial.print("$ACKSWITCHON#");
+      Serial.print("\r\n");
+      ledstatusflag=1;
+    }
+
+    else if (NUCcmd.equals(ledOFF))
+    {
+      digitalWrite(RelayLED, HIGH); // sets the LED OFF
+      Serial.print("$ACKSWITCHOFF#");
+      Serial.print("\r\n");
+      ledstatusflag=0;
+    }
+
+    else if (NUCcmd.equals(KeepON))   //Keep ssytem of for speed > 3 condition.
+    {
+      NewIgnioffCntr = 0;
+      NewIGNOff = 0;
+      Serial.print("$ACKKEEPON#");
+      Serial.print("\r\n");
+    }
+
+    else if (NUCcmd.equals(DevOFF))
+    {
+      IntTmrOFF = 0;
+      NewIGNOff = 0;
+      NewIgnioffCntr = 0;
+      //  digitalWrite(Relay, HIGH);
+      // digitalWrite(RelayTV, HIGH);
+      Serial.print("$RelayOFF#");
+      Serial.print("\r\n");
+
+      inNUCOFF = 1;
+    }
+
+    else if (NUCcmd.equals(NUCON))
+    {
+      Serial.print("$NUCON#");
+      Serial.print("\r\n");
+      if (val1 == HIGH)
+      {
+        Serial.print("$IGNON#");
+        inNUCOFF = 0;
+      }
+    }
+    else if (NUCcmd.equals(ACKOFF))
+    {
+      ACKIGNOFF = 1;
+      IGNOFFcount = 0;
+    }
+  }
+
+
+  if (NewIGNOff == 1 && ACKIGNOFF == 0)
+  {
+    if (IGNOFFcount < 2 && ACKCount == 29)
+    {
+      Serial.print("$IGNOFF#");
+      Serial.print("\r\n");
+     
+      ACKCount = 0;
+      IGNOFFcount++;
+    }
+
+    if(IGNOFFcount == 2)
+    {
+      digitalWrite(RelayNUC, LOW); // sets the NUC OFF
+      digitalWrite(RelayTV, LOW); // sets the TV OFF
+      ACKIGNOFF = 1;
+    }
+   
+    ACKCount++;
+    delay(1);
+  }
+
+  //########################################### Relay Trip for 1 min#######################################
+  if  (RelayTrip1min == 1 && inPON==1 && IGNON==1)
+  {
+  if (NewMainsCntr == RelayOfftime)
+    {
+        //digitalWrite(RelayNUC, LOW); // sets the NUC OFF   
+        digitalWrite(RelayNUC, HIGH); // sets the NUC OFF updated22072022
+        Serial.print("Relay OFF \r\n");
+    }
+
+    else if(NewMainsCntr == RelayONTime)
+    {
+      //digitalWrite(RelayNUC, HIGH); // sets the NUC ON   updated22072022
+       digitalWrite(RelayNUC, HIGH); // sets the NUC ON
+       Serial.print("Relay ON \r\n");
+       NewMainsCntr = 0;
+       RelayTrip1min = 0;
+       NewIGNOff=0;
+      }
+ 
+      NewMainsCntr++;
+    }
+   
+  //################################################LED Screen ON/OF######################################
+
+  if(DeviceON >= 40 && LEDScreenstate == 0)
+  {
+    digitalWrite(RelayLED, LOW); // sets the LED ON
+     Serial.print("$LEDON#");
+      Serial.print("\r\n");
+
+      LEDScreenstate = 1;
+   
+   }
+   if(DeviceOF >= 3  && LEDScreenstate == 1)
+   {
+    digitalWrite(RelayLED, HIGH); // sets the LED OFF
+     Serial.print("$LEDOFF#");
+      Serial.print("\r\n");
+
+      LEDScreenstate = 0;
+
+    }
+
+    //################################################Rakshak + 3 panic key#######################################
+
+  val1 = digitalRead(inPin1);  // read input value
+  /* val2 = digitalRead(inPin2);  // read input value
+    val3 = digitalRead(inPin3);  // read input value
+    val4 = digitalRead(inPin4);  // read input value
+    val5 = digitalRead(inPin5);  // read input value
+    val6 = digitalRead(inPin6);  // read input value*/
+
+
+  if (val1 == HIGH)
+  {
+
+   
+    if (inPON == 0 && DeviceON == 115)
+    {
+      Serial.print("$IGNON#");
+      Serial.print("\r\n");
+     
+      ACKIGNOFF = 0;
+      IGNOFFcount = 0;
+     
+      if (inNUCOFF == 1)
+      {
+        RelayTrip1min =1;
+        //digitalWrite(RelayNUC, LOW);
+        //delay(3000);
+      }
+     //digitalWrite(RelayNUC, HIGH); // sets the NUC ON
+        digitalWrite(RelayNUC, LOW); // sets the NUC ON  updated22072022
+      //digitalWrite(RelayTV, HIGH); // sets the TV ON
+      digitalWrite(RelayTV, HIGH); // sets the TV ON   updated22072022
+     
+     
+      inPON = 1;
+      IGNON = 1;
+      IGNOFF = 0;
+      NewIgnioffCntr =0;
+      NewIGNOff = 0;
+      DeviceON++;
+    LEDScreenstate = 1;
+     
+    }
+
+    //   Serial.print("IGN is ON");
+    //    Serial.print(DeviceON);
+    //   Serial.print("\r\n");
+    if (inPON == 0)
+    {
+      DeviceON++;
+    }
+    DeviceOF = 0;
+    inPOF = 0;
+  }
+
+  else if (val1 == LOW)
+  {
+   
+    if (inPOF == 0 && DeviceOF == 114)
+    {
+      NewIGNOff = 1;
+      ACKIGNOFF = 0;
+      IGNOFFcount = 0;
+     
+      Serial.print("$IGNOFF#");
+      Serial.print("\r\n");
+     
+      inPOF = 1;
+      DeviceOF++;
+      IGNOFF = 1;
+      IGNON = 0;
+      NewMainsCntr =0;
+      RelayTrip1min =0;
+      LEDScreenstate = 0;
+    }
+
+    //   Serial.print("IGN is OFF");
+    //   Serial.print(DeviceOF);
+    //   Serial.print("\r\n");
+   
+    DeviceOF++;
+    delay(2);
+    DeviceON = 0;
+    inPON = 0;
+  }
+
+
+
+  //////////////////////////////////////////////////// **MQ-7 CO Sensor Readings** /////////////////////////////////////////
+  int coValue = analogRead(CO_SENSOR_PIN);
+  coVoltage = coValue * (5.0 / 1023.0);
+
+  // **PM2.5 Sensor Reading** (using single analog pin)
+  pm25Value = analogRead(PM25_SENSOR_PIN) * (5.0 / 1023.0); // Convert to voltage or further calibrate if needed
+  
+  // **Sound Sensor**
+  sensorValueSound = analogRead(SOUND_SENSOR_PIN);
+  soundLevel = sensorValueSound * (5.0 / 1024.0);  // Convert to voltage
+  dB = 20 * (log10(soundLevel / 0.001)) + 20;  // Example conversion to dB
+
+
+  if ((counttx == 25) || (flag == 0))
+  {
+    Serial.print("BL");
+    Serial.print(ActVolt);
+    Serial.print(",");
+    Serial.print(percentage);
+    //Serial.print("milivoltage = ");
+    Serial.print(",");
+
+    Serial.print("\r\n");
+    counttx = 0;
+    flag = 1;
+
+  }
+  sampling1();
+
+  ActVolt = ((avg / 5.0) * 13.6);
+  percentage = ((avg / 1000) * (100 / 5.0));
+  cum_sample = 0;
+  delay(1);
+
+  if (timer == remote_interval)
+  {
+    uart();
+    //  Serial.print("\r\n");
+    timer = 0;
+  }
+  timer++;
+//last:
+
+  delay(100);
+  //timer++;
+  // Serial.print(remote_interval); // traces for remote parameter
+  // Serial.print(timer);           // traces for remote parameter
+}
+
+void Panic()
+{
+  if (intSOS == 0)
+  {
+
+    IntTmr = 0;
+    intSOS++;
+    Serial.print("$PN#");
+    Serial.print("\r\n");
+    digitalWrite(BuzzPin, HIGH);   // sets the LED on
+  }
+}
+
+void INT_R()
+{
+  if (intSOS == 0)
+  {
+
+    IntTmr = 0;
+    intSOS++;
+    Serial.print("$IR#");
+    Serial.print("\r\n");
+    digitalWrite(BuzzPin, HIGH);   // sets the LED on
+  }
+}
+
+void INT_F()
+{
+  if (intSOS == 0)
+  {
+
+    IntTmr = 0;
+    intSOS++;
+    Serial.print("$IF#");
+    Serial.print("\r\n");
+    digitalWrite(BuzzPin, HIGH);   // sets the LED on
+  }
+}
+
+void AMB()
+{
+  if (intSOS == 0)
+  {
+
+    IntTmr = 0;
+    intSOS++;
+    Serial.print("$AB#");
+    Serial.print("\r\n");
+    digitalWrite(BuzzPin, HIGH);   // sets the LED on
+  }
+}
+
+void PLC()
+{
+  if (intSOS == 0)
+  {
+
+    IntTmr = 0;
+    intSOS++;
+    Serial.print("$PL#");
+    Serial.print("\r\n");
+    digitalWrite(BuzzPin, HIGH);   // sets the LED on
+  }
+}
+
+void FIR()
+{
+  if (intSOS == 0)
+  {
+
+    IntTmr = 0;
+    intSOS++;
+    Serial.print("$FR#");
+    Serial.print("\r\n");
+    digitalWrite(BuzzPin, HIGH);   // sets the LED on
+  }
+}
+void uart()
+{
+  val2 = digitalRead(RelayLED);
+  Serial.print("HU");
+  Serial.print(h);
+  Serial.print(",");
+  Serial.print("TM");
+  Serial.print(t);
+  Serial.print(",");
+  if (IGNON == 1)
+  {
+    Serial.print("IGON");
+    Serial.print(",");
+  }
+  else if (IGNOFF == 1)
+  {
+    Serial.print("IGOF");
+    Serial.print(",");
+  }
+   if (LEDScreenstate == 1 && (val2 == LOW))
+  {
+    Serial.print("LEDON");
+    Serial.print(",");
+  }
+  else if (LEDScreenstate == 0 || (val2 == HIGH))
+  {
+    Serial.print("LEDOF");
+    Serial.print(",");
+  }
+
+
+
+  // **Output the Sensor Data**
+  Serial.print("DHT Temp: ");
+  Serial.print(t);
+  Serial.print(" °C | Humidity: ");
+  Serial.print(h);
+  Serial.print(" % | CO: ");
+  Serial.print(coVoltage);
+  Serial.print(" V | PM2.5: ");
+  Serial.print(pm25Value);
+  Serial.print(" V | dB: ");
+  Serial.println(dB);
+
+
+  }
+
+void sampling ()
+{
+  for (int i = 0; i <= 205; i++)
+  {
+    sensorValuemax = analogRead(A1);
+    sensorValuemin = analogRead(A2);
+
+    sample = sample + sensorValuemax;
+    sample1 = sample1 + sensorValuemin;
+
+    count++;
+    delay (2);
+  }
+  if (count >= 205)
+  {
+    count = 0;
+    sensorValuemax = sample / 205;
+    sensorValuemin = sample1 / 205;
+
+  }
+}
+
+
+void sampling1 ()
+{
+  for (int i = 0; i <= 20; i++)
+  {
+    sensorValueBat = analogRead(A3);
+    Batvoltage = sensorValueBat * (5.0 / 1024.0);
+    milivoltage = Batvoltage * 1000;
+
+    cum_sample = cum_sample + milivoltage;
+    //   cum_sample = cum_sample + Batvoltage;
+    countv++;
+    delay (1);
+  }
+  if (countv >= 20)
+  {
+    countv = 0;
+    avg = cum_sample / 20;
+
+  }
+  counttx++;
+}

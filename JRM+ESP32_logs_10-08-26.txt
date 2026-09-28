@@ -1,0 +1,736 @@
+[2026-08-10_16:27:03:062][GPS] Fast lock configuration sent to module.
+[2026-08-10_16:27:03:547]
+[2026-08-10_16:27:03:547]----------------------------------------
+[2026-08-10_16:27:03:547]ESP32 GPS Speed Controller Started
+[2026-08-10_16:27:03:547]Bluetooth SSID: ESP32_JRM
+[2026-08-10_16:27:03:547]----------------------------------------
+[2026-08-10_16:27:03:663][SD] Initialized successfully.
+[2026-08-10_16:27:07:210][LANG] Selection: ENGLISH (Confirming in 3 seconds...)
+[2026-08-10_16:27:10:218][LANG] Confirmed Language: ENGLISH
+[2026-08-10_16:27:10:218][STATE] Transitioned to STATE_ROUTE_SELECT. Awaiting Route Selection...
+[2026-08-10_16:27:11:051][ROUTE] Please send route command (e.g. Route500, Route510, Route520) via Serial or Bluetooth.
+[2026-08-10_16:27:21:050]ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿOUTE] Please send route command (e.g. Route500, Route510, Route520) via Serial or Bluetooth.
+[2026-08-10_16:27:31:045][ROUTE] Please send route command (e.g. Route500, Route510, Route520) via Serial or Bluetooth.
+[2026-08-10_16:27:41:054][ROUTE] Please send route command (e.g. Route500, Route510, Route520) via Serial or Bluetooth.
+[2026-08-10_16:27:41:224][COMMAND] Received: Route510
+[2026-08-10_16:27:41:224][ROUTE] Error: File /Route510.txt not found on SD card!
+[2026-08-10_16:27:51:063][ROUTE] Please send route command (e.g. Route500, Route510, Route520) via Serial or Bluetooth.
+[2026-08-10_16:28:01:051][ROUTE] Please send route command (e.g. Route500, Route510, Route520) via Serial or Bluetooth.
+[2026-08-10_16:28:08:565]ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿOMMAND] Received: Route510
+[2026-08-10_16:28:09:120][ROUTE] Reading /Route510.txt...
+[2026-08-10_16:28:09:120][ROUTE] 1 -> 18.567498 , 73.918564 , R
+[2026-08-10_16:28:09:120][ROUTE] 2 -> 18.567498 , 73.918564 , R
+[2026-08-10_16:28:09:120][ROUTE] 3 -> 18.565125 , 73.918214 , Y
+[2026-08-10_16:28:09:120][ROUTE] 4 -> 18.565198 , 73.913807 , G
+[2026-08-10_16:28:09:120][ROUTE] 5 -> 18.565117 , 73.907037 , R
+[2026-08-10_16:28:09:120][ROUTE] 6 -> 18.555265 , 73.906006 , Y
+[2026-08-10_16:28:09:151][ROUTE] 7 -> 18.552280 , 73.896956 , G
+[2026-08-10_16:28:09:151][ROUTE] 8 -> 18.546150 , 73.889503 , R
+[2026-08-10_16:28:09:151][ROUTE] 9 -> 18.541579 , 73.885380 , Y
+[2026-08-10_16:28:09:151][ROUTE] 10 -> 18.545146 , 73.883329 , G
+[2026-08-10_16:28:09:151][ROUTE] 11 -> 18.545146 , 73.883329 , G
+[2026-08-10_16:28:09:151][ROUTE] Loaded 11 coordinates from /Route510.txt (Lines: 7).
+[2026-08-10_16:28:09:183][STATE] Route 'Route510' loaded. Waiting for GPS lock...
+[2026-08-10_16:28:11:056][GPS] Waiting for lock... 1 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:28:14:833][LANG] Language changed on-the-fly to: HINDI
+[2026-08-10_16:28:15:821][LANG] Language changed on-the-fly to: MARATHI
+[2026-08-10_16:28:16:355][LANG] Language changed on-the-fly to: ENGLISH
+[2026-08-10_16:28:21:057][GPS] Waiting for lock... 11 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:28:31:059][GPS] Waiting for lock... 21 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:28:41:066][GPS] Waiting for lock... 31 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:28:51:059][GPS] Waiting for lock... 41 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:29:01:063][GPS] Waiting for lock... 51 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:29:11:064][GPS] Waiting for lock... 61 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:29:21:057][GPS] Waiting for lock... 71 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:29:31:041][GPS] Waiting for lock... 81 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:29:41:056][GPS] Waiting for lock... 91 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:29:51:056][GPS] Waiting for lock... 101 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:30:01:058][GPS] Waiting for lock... 111 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:30:11:060][GPS] Waiting for lock... 121 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:30:21:058][GPS] Waiting for lock... 131 s elapsed | Sats: 0 | HDOP: 0.0
+[2026-08-10_16:30:28:933][GPS] Lock acquired in 139.7 s! Lat: 18.565728, Lon: 73.918545 | Sats: 3
+[2026-08-10_16:30:28:933][ZONE] Initial match: Zone 'Y' (75.6 m from route point)
+[2026-08-10_16:30:28:933][AUDIO] Playing: /0002.mp3
+[2026-08-10_16:30:28:933][STATE] Initial Zone: YELLOW | Transitioning to RUNNING.
+[2026-08-10_16:30:28:933][STATUS] GPS: FIX OK | Lat: 18.565728, Lon: 73.918545 | Speed: 1.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:30:31:236][AUDIO] Finished playing file.
+[2026-08-10_16:30:33:981][STATUS] GPS: FIX OK | Lat: 18.565638, Lon: 73.918502 | Speed: 1.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:30:38:976][STATUS] GPS: FIX OK | Lat: 18.565617, Lon: 73.918487 | Speed: 1.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:30:43:985][STATUS] GPS: FIX OK | Lat: 18.565628, Lon: 73.918517 | Speed: 0.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:30:48:975][STATUS] GPS: FIX OK | Lat: 18.565652, Lon: 73.918525 | Speed: 1.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:30:53:960][STATUS] GPS: FIX OK | Lat: 18.565688, Lon: 73.918525 | Speed: 0.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:30:58:976][STATUS] GPS: FIX OK | Lat: 18.565682, Lon: 73.918542 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:31:03:974][STATUS] GPS: FIX OK | Lat: 18.565682, Lon: 73.918542 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:31:08:974][STATUS] GPS: FIX OK | Lat: 18.565682, Lon: 73.918542 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:31:13:978][STATUS] GPS: FIX OK | Lat: 18.565682, Lon: 73.918542 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:31:18:973][STATUS] GPS: FIX OK | Lat: 18.565682, Lon: 73.918542 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:31:23:974][STATUS] GPS: FIX OK | Lat: 18.565682, Lon: 73.918542 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:31:28:976][STATUS] GPS: FIX OK | Lat: 18.565682, Lon: 73.918542 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:31:33:958][STATUS] GPS: FIX OK | Lat: 18.565682, Lon: 73.918542 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:31:38:974][STATUS] GPS: FIX OK | Lat: 18.565682, Lon: 73.918542 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:31:43:977][STATUS] GPS: FIX OK | Lat: 18.565682, Lon: 73.918542 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:31:48:963][STATUS] GPS: FIX OK | Lat: 18.565788, Lon: 73.918590 | Speed: 1.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:31:53:973][STATUS] GPS: FIX OK | Lat: 18.565840, Lon: 73.918572 | Speed: 1.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:31:58:974][STATUS] GPS: FIX OK | Lat: 18.565885, Lon: 73.918555 | Speed: 1.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:32:03:974][STATUS] GPS: FIX OK | Lat: 18.566083, Lon: 73.918535 | Speed: 2.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:32:08:975][STATUS] GPS: FIX OK | Lat: 18.566100, Lon: 73.918548 | Speed: 1.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:32:13:974][STATUS] GPS: FIX OK | Lat: 18.566107, Lon: 73.918558 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:32:18:975][STATUS] GPS: FIX OK | Lat: 18.566087, Lon: 73.918553 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:32:23:967][STATUS] GPS: FIX OK | Lat: 18.566087, Lon: 73.918553 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:32:28:982][STATUS] GPS: FIX OK | Lat: 18.566087, Lon: 73.918553 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:32:33:974][STATUS] GPS: FIX OK | Lat: 18.566087, Lon: 73.918553 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:32:38:973][STATUS] GPS: FIX OK | Lat: 18.566087, Lon: 73.918553 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:32:43:976][STATUS] GPS: FIX OK | Lat: 18.566087, Lon: 73.918553 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:32:48:974][STATUS] GPS: FIX OK | Lat: 18.566087, Lon: 73.918553 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:32:53:974][STATUS] GPS: FIX OK | Lat: 18.566087, Lon: 73.918553 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:32:58:964][STATUS] GPS: FIX OK | Lat: 18.565905, Lon: 73.918553 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:33:03:961][STATUS] GPS: FIX OK | Lat: 18.565890, Lon: 73.918532 | Speed: 2.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:33:08:972][STATUS] GPS: FIX OK | Lat: 18.565878, Lon: 73.918532 | Speed: 1.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:33:13:964][STATUS] GPS: FIX OK | Lat: 18.565882, Lon: 73.918535 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:33:18:964][STATUS] GPS: FIX OK | Lat: 18.565882, Lon: 73.918535 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:33:23:959][STATUS] GPS: FIX OK | Lat: 18.565882, Lon: 73.918535 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:33:28:975][STATUS] GPS: FIX OK | Lat: 18.565882, Lon: 73.918535 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:33:33:973][STATUS] GPS: FIX OK | Lat: 18.565882, Lon: 73.918535 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:33:38:966][STATUS] GPS: FIX OK | Lat: 18.565882, Lon: 73.918535 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:33:43:974][STATUS] GPS: FIX OK | Lat: 18.565882, Lon: 73.918535 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:33:48:972][STATUS] GPS: FIX OK | Lat: 18.565820, Lon: 73.918542 | Speed: 1.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:33:53:975][STATUS] GPS: FIX OK | Lat: 18.565792, Lon: 73.918540 | Speed: 2.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:33:58:973][STATUS] GPS: FIX OK | Lat: 18.565765, Lon: 73.918533 | Speed: 2.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:34:03:973][STATUS] GPS: FIX OK | Lat: 18.565733, Lon: 73.918542 | Speed: 2.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:34:08:973][STATUS] GPS: FIX OK | Lat: 18.565707, Lon: 73.918553 | Speed: 2.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:34:13:977][STATUS] GPS: FIX OK | Lat: 18.565695, Lon: 73.918558 | Speed: 1.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:34:18:982][STATUS] GPS: FIX OK | Lat: 18.565682, Lon: 73.918543 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:34:23:970][STATUS] GPS: FIX OK | Lat: 18.565685, Lon: 73.918548 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:34:28:972][STATUS] GPS: FIX OK | Lat: 18.565670, Lon: 73.918558 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:34:33:975][STATUS] GPS: FIX OK | Lat: 18.565670, Lon: 73.918558 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:34:38:973][STATUS] GPS: FIX OK | Lat: 18.565670, Lon: 73.918558 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:34:43:973][STATUS] GPS: FIX OK | Lat: 18.565603, Lon: 73.918658 | Speed: 6.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:34:48:973][STATUS] GPS: FIX OK | Lat: 18.565540, Lon: 73.918767 | Speed: 10.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:34:53:975][STATUS] GPS: FIX OK | Lat: 18.565533, Lon: 73.918758 | Speed: 6.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:34:58:972][STATUS] GPS: FIX OK | Lat: 18.565573, Lon: 73.918772 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:35:03:982][STATUS] GPS: FIX OK | Lat: 18.565583, Lon: 73.918772 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:35:08:972][STATUS] GPS: FIX OK | Lat: 18.565583, Lon: 73.918772 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:35:13:972][STATUS] GPS: FIX OK | Lat: 18.565583, Lon: 73.918772 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:35:18:973][STATUS] GPS: FIX OK | Lat: 18.565592, Lon: 73.918818 | Speed: 5.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:35:23:974][STATUS] GPS: FIX OK | Lat: 18.565537, Lon: 73.918837 | Speed: 4.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:35:28:973][STATUS] GPS: FIX OK | Lat: 18.565508, Lon: 73.918825 | Speed: 3.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:35:33:976][STATUS] GPS: FIX OK | Lat: 18.565495, Lon: 73.918652 | Speed: 16.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:35:38:953][STATUS] GPS: FIX OK | Lat: 18.565532, Lon: 73.918445 | Speed: 11.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:35:43:966][STATUS] GPS: FIX OK | Lat: 18.565543, Lon: 73.918293 | Speed: 10.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:35:48:966][STATUS] GPS: FIX OK | Lat: 18.565532, Lon: 73.918178 | Speed: 5.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:35:53:972][STATUS] GPS: FIX OK | Lat: 18.565453, Lon: 73.918128 | Speed: 14.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:35:58:976][STATUS] GPS: FIX OK | Lat: 18.565207, Lon: 73.918100 | Speed: 24.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:36:03:960][STATUS] GPS: FIX OK | Lat: 18.564867, Lon: 73.918060 | Speed: 24.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:36:08:962][STATUS] GPS: FIX OK | Lat: 18.564607, Lon: 73.918052 | Speed: 17.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:36:13:973]ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿTATUS] GPS: FIX OK | Lat: 18.564345, Lon: 73.918022 | Speed: 19.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:36:18:951][STATUS] GPS: FIX OK | Lat: 18.564003, Lon: 73.917970 | Speed: 25.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:36:23:973][STATUS] GPS: FIX OK | Lat: 18.563662, Lon: 73.917912 | Speed: 22.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:36:28:983][STATUS] GPS: FIX OK | Lat: 18.563482, Lon: 73.917903 | Speed: 10.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:36:33:973][STATUS] GPS: FIX OK | Lat: 18.563450, Lon: 73.917713 | Speed: 13.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:36:38:972][STATUS] GPS: FIX OK | Lat: 18.563373, Lon: 73.917407 | Speed: 15.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:36:43:954][STATUS] GPS: FIX OK | Lat: 18.563338, Lon: 73.917158 | Speed: 17.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:36:48:973][STATUS] GPS: FIX OK | Lat: 18.563350, Lon: 73.916765 | Speed: 29.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:36:53:972][STATUS] GPS: FIX OK | Lat: 18.563335, Lon: 73.916358 | Speed: 27.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:36:58:959][STATUS] GPS: FIX OK | Lat: 18.563333, Lon: 73.915968 | Speed: 26.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:37:03:978][STATUS] GPS: FIX OK | Lat: 18.563325, Lon: 73.915590 | Speed: 26.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:37:08:973][STATUS] GPS: FIX OK | Lat: 18.563275, Lon: 73.915180 | Speed: 29.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:37:13:969][STATUS] GPS: FIX OK | Lat: 18.563237, Lon: 73.914868 | Speed: 20.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:37:18:971][STATUS] GPS: FIX OK | Lat: 18.563253, Lon: 73.914535 | Speed: 20.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:37:23:972][STATUS] GPS: FIX OK | Lat: 18.563265, Lon: 73.914235 | Speed: 20.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:37:28:972][STATUS] GPS: FIX OK | Lat: 18.563243, Lon: 73.914002 | Speed: 13.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:37:33:972][STATUS] GPS: FIX OK | Lat: 18.563208, Lon: 73.913858 | Speed: 7.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:37:38:961][STATUS] GPS: FIX OK | Lat: 18.563258, Lon: 73.913773 | Speed: 8.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:37:43:972][STATUS] GPS: FIX OK | Lat: 18.563315, Lon: 73.913745 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:37:45:218][LANG] Language changed on-the-fly to: HINDI
+[2026-08-10_16:37:45:218][AUDIO] Playing: /0102.mp3
+[2026-08-10_16:37:48:138][AUDIO] Finished playing file.
+[2026-08-10_16:37:48:971][STATUS] GPS: FIX OK | Lat: 18.563312, Lon: 73.913740 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:37:53:972][STATUS] GPS: FIX OK | Lat: 18.563320, Lon: 73.913317 | Speed: 29.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:37:58:970][STATUS] GPS: FIX OK | Lat: 18.563310, Lon: 73.912880 | Speed: 32.4 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:38:03:979][STATUS] GPS: FIX OK | Lat: 18.563317, Lon: 73.912400 | Speed: 35.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:38:08:974][STATUS] GPS: FIX OK | Lat: 18.563272, Lon: 73.911987 | Speed: 28.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:38:13:973][STATUS] GPS: FIX OK | Lat: 18.563235, Lon: 73.911593 | Speed: 27.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:38:18:953][STATUS] GPS: FIX OK | Lat: 18.563257, Lon: 73.911133 | Speed: 29.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:38:23:975][STATUS] GPS: FIX OK | Lat: 18.563275, Lon: 73.910825 | Speed: 15.4 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:38:28:966][STATUS] GPS: FIX OK | Lat: 18.563262, Lon: 73.910742 | Speed: 4.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:38:33:972][STATUS] GPS: FIX OK | Lat: 18.563302, Lon: 73.910607 | Speed: 10.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:38:38:956][STATUS] GPS: FIX OK | Lat: 18.563352, Lon: 73.910393 | Speed: 12.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:38:43:969][STATUS] GPS: FIX OK | Lat: 18.563400, Lon: 73.910120 | Speed: 24.4 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:38:48:951][STATUS] GPS: FIX OK | Lat: 18.563465, Lon: 73.909747 | Speed: 28.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:38:53:970][STATUS] GPS: FIX OK | Lat: 18.563475, Lon: 73.909282 | Speed: 31.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:38:58:970][STATUS] GPS: FIX OK | Lat: 18.563505, Lon: 73.908842 | Speed: 32.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:39:03:969][STATUS] GPS: FIX OK | Lat: 18.563538, Lon: 73.908423 | Speed: 27.6 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:39:08:973][STATUS] GPS: FIX OK | Lat: 18.563562, Lon: 73.908008 | Speed: 31.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:39:13:970][STATUS] GPS: FIX OK | Lat: 18.563642, Lon: 73.907600 | Speed: 32.6 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:39:18:974][STATUS] GPS: FIX OK | Lat: 18.563688, Lon: 73.907107 | Speed: 34.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:39:23:970][STATUS] GPS: FIX OK | Lat: 18.563712, Lon: 73.906837 | Speed: 11.4 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:39:26:977][AUDIO] Playing: /0103.mp3
+[2026-08-10_16:39:26:977][ZONE] Entry: RED ZONE
+[2026-08-10_16:39:28:954][STATUS] GPS: FIX OK | Lat: 18.564048, Lon: 73.906690 | Speed: 7.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:39:29:305][AUDIO] Finished playing file.
+[2026-08-10_16:39:33:969][STATUS] GPS: FIX OK | Lat: 18.564145, Lon: 73.906585 | Speed: 19.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:39:38:971][STATUS] GPS: FIX OK | Lat: 18.563880, Lon: 73.906598 | Speed: 27.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:39:40:973][AUDIO] Playing: /0104.mp3
+[2026-08-10_16:39:40:973][ALERT] OVERSPEED DETECTED! Speed: 31.67 km/h, Limit: 30.00 km/h
+[2026-08-10_16:39:43:971][STATUS] GPS: FIX OK | Lat: 18.563503, Lon: 73.906628 | Speed: 31.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:39:45:855][AUDIO] Finished playing file.
+[2026-08-10_16:39:48:969][STATUS] GPS: FIX OK | Lat: 18.563045, Lon: 73.906638 | Speed: 40.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:39:51:958][SPEED] Normalized: 29.34 km/h
+[2026-08-10_16:39:53:975][STATUS] GPS: FIX OK | Lat: 18.562753, Lon: 73.906615 | Speed: 25.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:39:58:960][STATUS] GPS: FIX OK | Lat: 18.562475, Lon: 73.906580 | Speed: 6.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:40:03:955][STATUS] GPS: FIX OK | Lat: 18.562407, Lon: 73.906572 | Speed: 6.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:40:08:952][STATUS] GPS: FIX OK | Lat: 18.562368, Lon: 73.906575 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:40:13:963][STATUS] GPS: FIX OK | Lat: 18.562367, Lon: 73.906573 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:40:18:967][STATUS] GPS: FIX OK | Lat: 18.562363, Lon: 73.906582 | Speed: 4.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:40:23:955][STATUS] GPS: FIX OK | Lat: 18.562210, Lon: 73.906580 | Speed: 11.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:40:28:969][STATUS] GPS: FIX OK | Lat: 18.562053, Lon: 73.906537 | Speed: 14.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:40:33:970][STATUS] GPS: FIX OK | Lat: 18.561850, Lon: 73.906535 | Speed: 18.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:40:38:976][STATUS] GPS: FIX OK | Lat: 18.561557, Lon: 73.906515 | Speed: 25.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:40:43:970][STATUS] GPS: FIX OK | Lat: 18.561130, Lon: 73.906435 | Speed: 29.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:40:44:976][AUDIO] Playing: /0104.mp3
+[2026-08-10_16:40:44:976][ALERT] OVERSPEED DETECTED! Speed: 30.52 km/h, Limit: 30.00 km/h
+[2026-08-10_16:40:48:969][STATUS] GPS: FIX OK | Lat: 18.560745, Lon: 73.906392 | Speed: 30.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:40:49:861][AUDIO] Finished playing file.
+[2026-08-10_16:40:50:962][SPEED] Normalized: 28.52 km/h
+[2026-08-10_16:40:53:973][STATUS] GPS: FIX OK | Lat: 18.560447, Lon: 73.906362 | Speed: 22.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:40:58:972][STATUS] GPS: FIX OK | Lat: 18.560192, Lon: 73.906353 | Speed: 24.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:41:01:979][AUDIO] Playing: /0104.mp3
+[2026-08-10_16:41:01:979][ALERT] OVERSPEED DETECTED! Speed: 30.11 km/h, Limit: 30.00 km/h
+[2026-08-10_16:41:03:977][STATUS] GPS: FIX OK | Lat: 18.559825, Lon: 73.906372 | Speed: 30.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:41:06:857][AUDIO] Finished playing file.
+[2026-08-10_16:41:07:954][SPEED] Normalized: 25.30 km/h
+[2026-08-10_16:41:08:977][STATUS] GPS: FIX OK | Lat: 18.559525, Lon: 73.906398 | Speed: 24.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:41:14:002][AUDIO] Playing: /0104.mp3
+[2026-08-10_16:41:14:002][ALERT] OVERSPEED DETECTED! Speed: 32.22 km/h, Limit: 30.00 km/h
+[2026-08-10_16:41:14:002][STATUS] GPS: FIX OK | Lat: 18.559183, Lon: 73.906365 | Speed: 32.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:41:18:872][AUDIO] Finished playing file.
+[2026-08-10_16:41:18:995][STATUS] GPS: FIX OK | Lat: 18.558768, Lon: 73.906317 | Speed: 33.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:41:20:956][SPEED] Normalized: 27.19 km/h
+[2026-08-10_16:41:23:995][STATUS] GPS: FIX OK | Lat: 18.558472, Lon: 73.906387 | Speed: 24.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:41:28:997][STATUS] GPS: FIX OK | Lat: 18.558128, Lon: 73.906392 | Speed: 29.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:41:29:979][AUDIO] Playing: /0104.mp3
+[2026-08-10_16:41:29:979][ALERT] OVERSPEED DETECTED! Speed: 30.56 km/h, Limit: 30.00 km/h
+[2026-08-10_16:41:33:993][STATUS] GPS: FIX OK | Lat: 18.557735, Lon: 73.906398 | Speed: 31.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:41:34:854][AUDIO] Finished playing file.
+[2026-08-10_16:41:39:002][STATUS] GPS: FIX OK | Lat: 18.557355, Lon: 73.906368 | Speed: 30.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:41:39:954][SPEED] Normalized: 29.09 km/h
+[2026-08-10_16:41:43:995][STATUS] GPS: FIX OK | Lat: 18.557058, Lon: 73.906463 | Speed: 24.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:41:49:007][STATUS] GPS: FIX OK | Lat: 18.556727, Lon: 73.906435 | Speed: 21.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:41:51:967][AUDIO] Playing: /0102.mp3
+[2026-08-10_16:41:51:967][ZONE] Entry: YELLOW ZONE
+[2026-08-10_16:41:53:996]ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿSTATUS] GPS: FIX OK | Lat: 18.556507, Lon: 73.906352 | Speed: 14.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:41:54:895][AUDIO] Finished playing file.
+[2026-08-10_16:41:58:997][STATUS] GPS: FIX OK | Lat: 18.556372, Lon: 73.906237 | Speed: 12.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:42:03:995][STATUS] GPS: FIX OK | Lat: 18.556300, Lon: 73.906215 | Speed: 10.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:42:08:996][STATUS] GPS: FIX OK | Lat: 18.556283, Lon: 73.906298 | Speed: 8.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:42:13:995][STATUS] GPS: FIX OK | Lat: 18.556288, Lon: 73.906428 | Speed: 8.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:42:18:985][STATUS] GPS: FIX OK | Lat: 18.556142, Lon: 73.906497 | Speed: 14.6 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:42:23:995][STATUS] GPS: FIX OK | Lat: 18.555927, Lon: 73.906505 | Speed: 11.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:42:28:995][STATUS] GPS: FIX OK | Lat: 18.555698, Lon: 73.906520 | Speed: 16.4 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:42:33:989][STATUS] GPS: FIX OK | Lat: 18.555570, Lon: 73.906592 | Speed: 11.4 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:42:39:002][STATUS] GPS: FIX OK | Lat: 18.555392, Lon: 73.906435 | Speed: 19.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:42:43:994][STATUS] GPS: FIX OK | Lat: 18.555158, Lon: 73.906335 | Speed: 20.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:42:48:994][STATUS] GPS: FIX OK | Lat: 18.554872, Lon: 73.906328 | Speed: 23.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:42:53:992][STATUS] GPS: FIX OK | Lat: 18.554543, Lon: 73.906273 | Speed: 18.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:42:58:993][STATUS] GPS: FIX OK | Lat: 18.554230, Lon: 73.906170 | Speed: 13.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:43:03:994][STATUS] GPS: FIX OK | Lat: 18.554122, Lon: 73.906142 | Speed: 6.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:43:08:995][STATUS] GPS: FIX OK | Lat: 18.554025, Lon: 73.906162 | Speed: 3.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:43:13:988][STATUS] GPS: FIX OK | Lat: 18.553985, Lon: 73.906157 | Speed: 0.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:43:18:995][STATUS] GPS: FIX OK | Lat: 18.553960, Lon: 73.906150 | Speed: 2.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:43:23:987][STATUS] GPS: FIX OK | Lat: 18.553967, Lon: 73.906147 | Speed: 0.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:43:28:993][STATUS] GPS: FIX OK | Lat: 18.554115, Lon: 73.906062 | Speed: 13.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:43:33:993][STATUS] GPS: FIX OK | Lat: 18.554323, Lon: 73.905847 | Speed: 22.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:43:38:994][STATUS] GPS: FIX OK | Lat: 18.554492, Lon: 73.905553 | Speed: 21.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:43:43:985][STATUS] GPS: FIX OK | Lat: 18.554437, Lon: 73.905163 | Speed: 35.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:43:45:980][AUDIO] Playing: /0104.mp3
+[2026-08-10_16:43:45:980][ALERT] OVERSPEED DETECTED! Speed: 40.61 km/h, Limit: 40.00 km/h
+[2026-08-10_16:43:48:998][STATUS] GPS: FIX OK | Lat: 18.554295, Lon: 73.904652 | Speed: 40.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:43:50:857][AUDIO] Finished playing file.
+[2026-08-10_16:43:51:959][SPEED] Normalized: 35.87 km/h
+[2026-08-10_16:43:53:998][STATUS] GPS: FIX OK | Lat: 18.554187, Lon: 73.904235 | Speed: 33.4 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:43:58:998][STATUS] GPS: FIX OK | Lat: 18.554063, Lon: 73.903822 | Speed: 31.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:44:03:997][STATUS] GPS: FIX OK | Lat: 18.553947, Lon: 73.903412 | Speed: 28.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:44:09:006][STATUS] GPS: FIX OK | Lat: 18.553888, Lon: 73.903195 | Speed: 11.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:44:13:998][STATUS] GPS: FIX OK | Lat: 18.553867, Lon: 73.902928 | Speed: 27.4 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:44:18:996][STATUS] GPS: FIX OK | Lat: 18.553792, Lon: 73.902507 | Speed: 31.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:44:23:998][STATUS] GPS: FIX OK | Lat: 18.553683, Lon: 73.902120 | Speed: 28.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:44:28:997][STATUS] GPS: FIX OK | Lat: 18.553572, Lon: 73.901727 | Speed: 33.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:44:31:994][AUDIO] Playing: /0104.mp3
+[2026-08-10_16:44:31:994][ALERT] OVERSPEED DETECTED! Speed: 43.73 km/h, Limit: 40.00 km/h
+[2026-08-10_16:44:33:984][STATUS] GPS: FIX OK | Lat: 18.553453, Lon: 73.901193 | Speed: 43.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:44:36:872][AUDIO] Finished playing file.
+[2026-08-10_16:44:38:997][SPEED] Normalized: 39.50 km/h
+[2026-08-10_16:44:38:997][STATUS] GPS: FIX OK | Lat: 18.553327, Lon: 73.900653 | Speed: 39.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:44:39:980][AUDIO] Playing: /0104.mp3
+[2026-08-10_16:44:39:980][ALERT] OVERSPEED DETECTED! Speed: 41.17 km/h, Limit: 40.00 km/h
+[2026-08-10_16:44:44:008][STATUS] GPS: FIX OK | Lat: 18.553153, Lon: 73.900123 | Speed: 41.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:44:44:864][AUDIO] Finished playing file.
+[2026-08-10_16:44:46:949][SPEED] Normalized: 39.30 km/h
+[2026-08-10_16:44:49:002][STATUS] GPS: FIX OK | Lat: 18.552947, Lon: 73.899572 | Speed: 36.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:44:53:990][STATUS] GPS: FIX OK | Lat: 18.552832, Lon: 73.899163 | Speed: 28.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:44:59:000][STATUS] GPS: FIX OK | Lat: 18.552742, Lon: 73.898822 | Speed: 29.6 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:45:04:001][STATUS] GPS: FIX OK | Lat: 18.552607, Lon: 73.898373 | Speed: 38.6 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:45:04:986][AUDIO] Playing: /0101.mp3
+[2026-08-10_16:45:04:986][ZONE] Entry: GREEN ZONE
+[2026-08-10_16:45:07:535][AUDIO] Finished playing file.
+[2026-08-10_16:45:09:002][STATUS] GPS: FIX OK | Lat: 18.552440, Lon: 73.897867 | Speed: 40.8 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:45:14:009][STATUS] GPS: FIX OK | Lat: 18.552302, Lon: 73.897430 | Speed: 31.3 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:45:19:003][STATUS] GPS: FIX OK | Lat: 18.552195, Lon: 73.897158 | Speed: 15.7 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:45:23:999][STATUS] GPS: FIX OK | Lat: 18.552133, Lon: 73.897028 | Speed: 8.6 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:45:28:985][STATUS] GPS: FIX OK | Lat: 18.552087, Lon: 73.896912 | Speed: 5.8 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:45:34:002][STATUS] GPS: FIX OK | Lat: 18.552062, Lon: 73.896812 | Speed: 12.7 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:45:38:999][STATUS] GPS: FIX OK | Lat: 18.552005, Lon: 73.896613 | Speed: 14.4 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:45:44:000][STATUS] GPS: FIX OK | Lat: 18.551975, Lon: 73.896550 | Speed: 8.8 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:45:49:003][STATUS] GPS: FIX OK | Lat: 18.551900, Lon: 73.896355 | Speed: 22.9 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:45:54:001][STATUS] GPS: FIX OK | Lat: 18.551695, Lon: 73.895987 | Speed: 39.9 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:45:58:981][STATUS] GPS: FIX OK | Lat: 18.551395, Lon: 73.895507 | Speed: 46.1 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:46:03:997][STATUS] GPS: FIX OK | Lat: 18.551025, Lon: 73.895028 | Speed: 47.2 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:46:09:001][STATUS] GPS: FIX OK | Lat: 18.550642, Lon: 73.894578 | Speed: 42.3 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:46:14:001][STATUS] GPS: FIX OK | Lat: 18.550347, Lon: 73.894185 | Speed: 39.4 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:46:18:999][STATUS] GPS: FIX OK | Lat: 18.549982, Lon: 73.893710 | Speed: 38.4 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:46:23:985][STATUS] GPS: FIX OK | Lat: 18.549713, Lon: 73.893435 | Speed: 32.3 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:46:29:001][STATUS] GPS: FIX OK | Lat: 18.549332, Lon: 73.893095 | Speed: 44.8 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:46:34:000][STATUS] GPS: FIX OK | Lat: 18.548855, Lon: 73.892713 | Speed: 48.3 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:46:39:010][STATUS] GPS: FIX OK | Lat: 18.548357, Lon: 73.892275 | Speed: 52.9 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:46:44:001][STATUS] GPS: FIX OK | Lat: 18.547827, Lon: 73.891797 | Speed: 55.6 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:46:49:001][STATUS] GPS: FIX OK | Lat: 18.547390, Lon: 73.891392 | Speed: 40.7 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:46:53:999][STATUS] GPS: FIX OK | Lat: 18.547047, Lon: 73.891002 | Speed: 40.7 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:46:58:006][AUDIO] Playing: /0103.mp3
+[2026-08-10_16:46:58:006][ZONE] Entry: RED ZONE
+[2026-08-10_16:46:58:006][AUDIO] Playing: /0104.mp3
+[2026-08-10_16:46:58:006][ALERT] OVERSPEED DETECTED! Speed: 38.82 km/h, Limit: 30.00 km/h
+[2026-08-10_16:46:59:000][STATUS] GPS: FIX OK | Lat: 18.546697, Lon: 73.890617 | Speed: 39.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:47:02:891][AUDIO] Finished playing file.
+[2026-08-10_16:47:03:997][SPEED] Normalized: 26.78 km/h
+[2026-08-10_16:47:03:997][STATUS] GPS: FIX OK | Lat: 18.546428, Lon: 73.890325 | Speed: 26.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:47:09:007][STATUS] GPS: FIX OK | Lat: 18.546422, Lon: 73.890205 | Speed: 14.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:47:13:998][STATUS] GPS: FIX OK | Lat: 18.546438, Lon: 73.890133 | Speed: 4.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:47:19:001][STATUS] GPS: FIX OK | Lat: 18.546425, Lon: 73.890150 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:47:24:002][STATUS] GPS: FIX OK | Lat: 18.546420, Lon: 73.890153 | Speed: 0.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:47:29:001][STATUS] GPS: FIX OK | Lat: 18.546418, Lon: 73.890125 | Speed: 1.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:47:34:000][STATUS] GPS: FIX OK | Lat: 18.546410, Lon: 73.890123 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:47:39:006][STATUS] GPS: FIX OK | Lat: 18.546355, Lon: 73.890033 | Speed: 13.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:47:44:000][STATUS] GPS: FIX OK | Lat: 18.546300, Lon: 73.889935 | Speed: 4.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:47:48:999][STATUS] GPS: FIX OK | Lat: 18.546333, Lon: 73.889890 | Speed: 4.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:47:53:998][STATUS] GPS: FIX OK | Lat: 18.546422, Lon: 73.889823 | Speed: 4.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:47:58:999][STATUS] GPS: FIX OK | Lat: 18.546450, Lon: 73.889820 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:48:03:996][STATUS] GPS: FIX OK | Lat: 18.546460, Lon: 73.889827 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:48:09:007][STATUS] GPS: FIX OK | Lat: 18.546488, Lon: 73.889862 | Speed: 1.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:48:14:000][STATUS] GPS: FIX OK | Lat: 18.546507, Lon: 73.889872 | Speed: 3.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:48:19:000][STATUS] GPS: FIX OK | Lat: 18.546465, Lon: 73.889838 | Speed: 4.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:48:24:000][STATUS] GPS: FIX OK | Lat: 18.546382, Lon: 73.889787 | Speed: 6.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:48:28:998][STATUS] GPS: FIX OK | Lat: 18.546290, Lon: 73.889637 | Speed: 11.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:48:34:000][STATUS] GPS: FIX OK | Lat: 18.546210, Lon: 73.889553 | Speed: 8.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:48:39:006][STATUS] GPS: FIX OK | Lat: 18.546152, Lon: 73.889485 | Speed: 3.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:48:43:998][STATUS] GPS: FIX OK | Lat: 18.546140, Lon: 73.889480 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:48:49:007][STATUS] GPS: FIX OK | Lat: 18.546122, Lon: 73.889437 | Speed: 4.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:48:53:998][STATUS] GPS: FIX OK | Lat: 18.546093, Lon: 73.889365 | Speed: 5.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:48:58:987]ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿSTATUS] GPS: FIX OK | Lat: 18.546020, Lon: 73.889250 | Speed: 7.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:49:03:983][STATUS] GPS: FIX OK | Lat: 18.545962, Lon: 73.889188 | Speed: 1.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:49:08:998][STATUS] GPS: FIX OK | Lat: 18.545940, Lon: 73.889175 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:49:13:983][STATUS] GPS: FIX OK | Lat: 18.545903, Lon: 73.889123 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:49:19:003][STATUS] GPS: FIX OK | Lat: 18.545903, Lon: 73.889118 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:49:23:998][STATUS] GPS: FIX OK | Lat: 18.545903, Lon: 73.889118 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:49:28:995][STATUS] GPS: FIX OK | Lat: 18.545903, Lon: 73.889118 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:49:33:997][STATUS] GPS: FIX OK | Lat: 18.545903, Lon: 73.889118 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:49:38:998][STATUS] GPS: FIX OK | Lat: 18.545903, Lon: 73.889118 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:49:43:997][STATUS] GPS: FIX OK | Lat: 18.545900, Lon: 73.889093 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:49:48:997][STATUS] GPS: FIX OK | Lat: 18.545900, Lon: 73.889093 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:49:53:994][STATUS] GPS: FIX OK | Lat: 18.545867, Lon: 73.889045 | Speed: 3.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:49:59:005][STATUS] GPS: FIX OK | Lat: 18.545847, Lon: 73.888975 | Speed: 4.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:50:03:998][STATUS] GPS: FIX OK | Lat: 18.545802, Lon: 73.888755 | Speed: 18.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:50:09:006][STATUS] GPS: FIX OK | Lat: 18.545715, Lon: 73.888438 | Speed: 24.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:50:13:999][STATUS] GPS: FIX OK | Lat: 18.545597, Lon: 73.888063 | Speed: 24.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:50:18:999][STATUS] GPS: FIX OK | Lat: 18.545522, Lon: 73.887775 | Speed: 21.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:50:24:000][STATUS] GPS: FIX OK | Lat: 18.545483, Lon: 73.887580 | Speed: 14.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:50:28:999][STATUS] GPS: FIX OK | Lat: 18.545455, Lon: 73.887413 | Speed: 14.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:50:33:997][STATUS] GPS: FIX OK | Lat: 18.545377, Lon: 73.887177 | Speed: 17.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:50:39:001][STATUS] GPS: FIX OK | Lat: 18.545278, Lon: 73.886777 | Speed: 25.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:50:43:997][STATUS] GPS: FIX OK | Lat: 18.545202, Lon: 73.886320 | Speed: 28.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:50:49:005][STATUS] GPS: FIX OK | Lat: 18.545200, Lon: 73.885890 | Speed: 24.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:50:52:040][AUDIO] Playing: /0104.mp3
+[2026-08-10_16:50:52:040][ALERT] OVERSPEED DETECTED! Speed: 30.48 km/h, Limit: 30.00 km/h
+[2026-08-10_16:50:53:998][STATUS] GPS: FIX OK | Lat: 18.545158, Lon: 73.885480 | Speed: 31.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:50:55:021][SPEED] Normalized: 29.67 km/h
+[2026-08-10_16:50:56:925][AUDIO] Finished playing file.
+[2026-08-10_16:50:58:999][LANG] Language changed on-the-fly to: MARATHI
+[2026-08-10_16:50:58:999][AUDIO] Playing: /0203.mp3
+[2026-08-10_16:50:58:999][STATUS] GPS: FIX OK | Lat: 18.545078, Lon: 73.885172 | Speed: 20.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_16:51:02:202][AUDIO] Finished playing file.
+[2026-08-10_16:51:03:997][STATUS] GPS: FIX OK | Lat: 18.544950, Lon: 73.884993 | Speed: 17.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_16:51:09:000][STATUS] GPS: FIX OK | Lat: 18.544872, Lon: 73.884857 | Speed: 0.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_16:51:13:999][STATUS] GPS: FIX OK | Lat: 18.544727, Lon: 73.884790 | Speed: 12.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_16:51:17:056][AUDIO] Playing: /0204.mp3
+[2026-08-10_16:51:17:056][ALERT] OVERSPEED DETECTED! Speed: 32.84 km/h, Limit: 30.00 km/h
+[2026-08-10_16:51:19:005][STATUS] GPS: FIX OK | Lat: 18.544348, Lon: 73.884843 | Speed: 34.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: MR | Overspeed: YES
+[2026-08-10_16:51:21:232][AUDIO] Finished playing file.
+[2026-08-10_16:51:23:782][LANG] Language changed on-the-fly to: ENGLISH
+[2026-08-10_16:51:23:782][AUDIO] Playing: /0003.mp3
+[2026-08-10_16:51:24:000][STATUS] GPS: FIX OK | Lat: 18.543807, Lon: 73.884977 | Speed: 43.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:51:24:124][LANG] Language changed on-the-fly to: HINDI
+[2026-08-10_16:51:24:124][AUDIO] Playing: /0103.mp3
+[2026-08-10_16:51:26:456][AUDIO] Finished playing file.
+[2026-08-10_16:51:28:996][STATUS] GPS: FIX OK | Lat: 18.543180, Lon: 73.885083 | Speed: 52.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:51:31:042][AUDIO] Playing: /0102.mp3
+[2026-08-10_16:51:31:042][ZONE] Entry: YELLOW ZONE
+[2026-08-10_16:51:34:000][AUDIO] Finished playing file.
+[2026-08-10_16:51:34:000][STATUS] GPS: FIX OK | Lat: 18.542563, Lon: 73.885205 | Speed: 46.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_16:51:36:016][SPEED] Normalized: 37.71 km/h
+[2026-08-10_16:51:39:001][STATUS] GPS: FIX OK | Lat: 18.542072, Lon: 73.885280 | Speed: 36.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:51:40:292][LANG] Language changed on-the-fly to: MARATHI
+[2026-08-10_16:51:40:292][AUDIO] Playing: /0202.mp3
+[2026-08-10_16:51:43:371][AUDIO] Finished playing file.
+[2026-08-10_16:51:43:575][LANG] Language changed on-the-fly to: ENGLISH
+[2026-08-10_16:51:43:575][AUDIO] Playing: /0002.mp3
+[2026-08-10_16:51:44:002][STATUS] GPS: FIX OK | Lat: 18.541607, Lon: 73.885292 | Speed: 37.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:51:45:859][AUDIO] Finished playing file.
+[2026-08-10_16:51:49:001][STATUS] GPS: FIX OK | Lat: 18.541293, Lon: 73.885133 | Speed: 24.6 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:51:54:004][STATUS] GPS: FIX OK | Lat: 18.541197, Lon: 73.884822 | Speed: 24.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:51:58:997][STATUS] GPS: FIX OK | Lat: 18.541152, Lon: 73.884442 | Speed: 24.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:52:04:003][STATUS] GPS: FIX OK | Lat: 18.541233, Lon: 73.884238 | Speed: 15.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:52:09:012][STATUS] GPS: FIX OK | Lat: 18.541538, Lon: 73.884115 | Speed: 25.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:52:13:999][STATUS] GPS: FIX OK | Lat: 18.541922, Lon: 73.884028 | Speed: 28.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:52:18:031][AUDIO] Playing: /0004.mp3
+[2026-08-10_16:52:18:031][ALERT] OVERSPEED DETECTED! Speed: 40.87 km/h, Limit: 40.00 km/h
+[2026-08-10_16:52:19:000][STATUS] GPS: FIX OK | Lat: 18.542445, Lon: 73.883905 | Speed: 40.9 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:52:21:384][AUDIO] Finished playing file.
+[2026-08-10_16:52:24:003][STATUS] GPS: FIX OK | Lat: 18.543035, Lon: 73.883735 | Speed: 43.4 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:52:29:060][STATUS] GPS: FIX OK | Lat: 18.543703, Lon: 73.883538 | Speed: 55.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:52:29:060][AUDIO] Playing: /0001.mp3
+[2026-08-10_16:52:29:060][ZONE] Entry: GREEN ZONE
+[2026-08-10_16:52:29:060][SPEED] Normalized: 55.17 km/h
+[2026-08-10_16:52:31:008][AUDIO] Finished playing file.
+[2026-08-10_16:52:34:000][STATUS] GPS: FIX OK | Lat: 18.544357, Lon: 73.883385 | Speed: 48.7 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:52:34:906][LANG] Language changed on-the-fly to: HINDI
+[2026-08-10_16:52:34:906][AUDIO] Playing: /0101.mp3
+[2026-08-10_16:52:37:488][AUDIO] Finished playing file.
+[2026-08-10_16:52:38:996][STATUS] GPS: FIX OK | Lat: 18.544870, Lon: 73.883257 | Speed: 40.9 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:52:44:006][STATUS] GPS: FIX OK | Lat: 18.545128, Lon: 73.883307 | Speed: 17.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:52:49:000][STATUS] GPS: FIX OK | Lat: 18.545168, Lon: 73.883480 | Speed: 16.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:52:53:991][STATUS] GPS: FIX OK | Lat: 18.545215, Lon: 73.883795 | Speed: 26.7 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:52:58:975][STATUS] GPS: FIX OK | Lat: 18.545193, Lon: 73.884138 | Speed: 22.9 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:53:03:998][STATUS] GPS: FIX OK | Lat: 18.545140, Lon: 73.884465 | Speed: 25.8 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:53:08:999][STATUS] GPS: FIX OK | Lat: 18.545082, Lon: 73.884785 | Speed: 19.4 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:53:13:999][STATUS] GPS: FIX OK | Lat: 18.545090, Lon: 73.885140 | Speed: 30.5 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:53:19:004][STATUS] GPS: FIX OK | Lat: 18.545168, Lon: 73.885610 | Speed: 38.1 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:53:24:000][STATUS] GPS: FIX OK | Lat: 18.545305, Lon: 73.886185 | Speed: 49.9 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:53:28:984][STATUS] GPS: FIX OK | Lat: 18.545443, Lon: 73.886820 | Speed: 46.2 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:53:34:000][STATUS] GPS: FIX OK | Lat: 18.545517, Lon: 73.887265 | Speed: 29.3 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:53:39:000][STATUS] GPS: FIX OK | Lat: 18.545597, Lon: 73.887540 | Speed: 13.3 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:53:44:000][STATUS] GPS: FIX OK | Lat: 18.545673, Lon: 73.887802 | Speed: 25.4 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:53:48:982][STATUS] GPS: FIX OK | Lat: 18.545763, Lon: 73.888120 | Speed: 23.1 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_16:53:49:007][AUDIO] Playing: /0103.mp3
+[2026-08-10_16:53:49:024][ZONE] Entry: RED ZONE
+[2026-08-10_16:53:51:379][AUDIO] Finished playing file.
+[2026-08-10_16:53:52:581][LANG] Language changed on-the-fly to: MARATHI
+[2026-08-10_16:53:52:581][AUDIO] Playing: /0203.mp3
+[2026-08-10_16:53:53:999][STATUS] GPS: FIX OK | Lat: 18.545850, Lon: 73.888358 | Speed: 17.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_16:53:55:802][LANG] Language changed on-the-fly to: ENGLISH
+[2026-08-10_16:53:55:802][AUDIO] Playing: /0003.mp3
+[2026-08-10_16:53:57:989][AUDIO] Finished playing file.
+[2026-08-10_16:53:58:994][STATUS] GPS: FIX OK | Lat: 18.545945, Lon: 73.888540 | Speed: 16.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:54:04:002][STATUS] GPS: FIX OK | Lat: 18.545857, Lon: 73.888468 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:54:08:999][STATUS] GPS: FIX OK | Lat: 18.545857, Lon: 73.888468 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:54:13:990][STATUS] GPS: FIX OK | Lat: 18.545857, Lon: 73.888468 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:54:19:000][STATUS] GPS: FIX OK | Lat: 18.545857, Lon: 73.888468 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:54:23:999][STATUS] GPS: FIX OK | Lat: 18.545857, Lon: 73.888468 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:54:28:998][STATUS] GPS: FIX OK | Lat: 18.545857, Lon: 73.888468 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:54:34:001][STATUS] GPS: FIX OK | Lat: 18.545857, Lon: 73.888468 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:54:39:000][STATUS] GPS: FIX OK | Lat: 18.545857, Lon: 73.888468 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:54:44:007][STATUS] GPS: FIX OK | Lat: 18.545857, Lon: 73.888468 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:54:48:999][STATUS] GPS: FIX OK | Lat: 18.545857, Lon: 73.888468 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:54:54:000][STATUS] GPS: FIX OK | Lat: 18.545860, Lon: 73.888575 | Speed: 16.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:54:59:002][STATUS] GPS: FIX OK | Lat: 18.545912, Lon: 73.888843 | Speed: 22.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:55:03:998][STATUS] GPS: FIX OK | Lat: 18.545995, Lon: 73.889178 | Speed: 28.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:55:08:048][AUDIO] Playing: /0004.mp3
+[2026-08-10_16:55:08:048][ALERT] OVERSPEED DETECTED! Speed: 30.30 km/h, Limit: 30.00 km/h
+[2026-08-10_16:55:09:013][STATUS] GPS: FIX OK | Lat: 18.546150, Lon: 73.889532 | Speed: 30.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:55:09:013][SPEED] Normalized: 29.87 km/h
+[2026-08-10_16:55:11:382][AUDIO] Finished playing file.
+[2026-08-10_16:55:12:043][AUDIO] Playing: /0004.mp3
+[2026-08-10_16:55:12:043][ALERT] OVERSPEED DETECTED! Speed: 31.28 km/h, Limit: 30.00 km/h
+[2026-08-10_16:55:14:005][STATUS] GPS: FIX OK | Lat: 18.546350, Lon: 73.889875 | Speed: 31.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:55:15:388][AUDIO] Finished playing file.
+[2026-08-10_16:55:19:000][STATUS] GPS: FIX OK | Lat: 18.546677, Lon: 73.890313 | Speed: 42.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:55:23:984][STATUS] GPS: FIX OK | Lat: 18.547102, Lon: 73.890783 | Speed: 47.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:55:28:999][STATUS] GPS: FIX OK | Lat: 18.547507, Lon: 73.891213 | Speed: 42.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:55:34:000][STATUS] GPS: FIX OK | Lat: 18.547887, Lon: 73.891613 | Speed: 40.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:55:39:000][STATUS] GPS: FIX OK | Lat: 18.548258, Lon: 73.891980 | Speed: 40.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:55:43:998][STATUS] GPS: FIX OK | Lat: 18.548660, Lon: 73.892392 | Speed: 46.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:55:48:999][STATUS] GPS: FIX OK | Lat: 18.549127, Lon: 73.892832 | Speed: 48.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:55:53:991][STATUS] GPS: FIX OK | Lat: 18.549580, Lon: 73.893158 | Speed: 38.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_16:55:57:028][SPEED] Normalized: 28.47 km/h
+[2026-08-10_16:55:59:004][STATUS] GPS: FIX OK | Lat: 18.549912, Lon: 73.893395 | Speed: 25.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:56:03:998][STATUS] GPS: FIX OK | Lat: 18.550092, Lon: 73.893508 | Speed: 12.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:56:08:999][STATUS] GPS: FIX OK | Lat: 18.550140, Lon: 73.893535 | Speed: 3.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:56:13:997][STATUS] GPS: FIX OK | Lat: 18.550150, Lon: 73.893558 | Speed: 2.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:56:18:984][STATUS] GPS: FIX OK | Lat: 18.550165, Lon: 73.893565 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:56:23:997][STATUS] GPS: FIX OK | Lat: 18.550165, Lon: 73.893565 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:56:28:999]ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿSTATUS] GPS: FIX OK | Lat: 18.550207, Lon: 73.893615 | Speed: 7.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:56:33:991][STATUS] GPS: FIX OK | Lat: 18.550222, Lon: 73.893657 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:56:39:000][STATUS] GPS: FIX OK | Lat: 18.550247, Lon: 73.893670 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:56:43:998][STATUS] GPS: FIX OK | Lat: 18.550260, Lon: 73.893663 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:56:49:001][STATUS] GPS: FIX OK | Lat: 18.550260, Lon: 73.893663 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:56:54:004][STATUS] GPS: FIX OK | Lat: 18.550260, Lon: 73.893663 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:56:58:998][STATUS] GPS: FIX OK | Lat: 18.550260, Lon: 73.893663 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:57:03:999][STATUS] GPS: FIX OK | Lat: 18.550260, Lon: 73.893663 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:57:08:997][STATUS] GPS: FIX OK | Lat: 18.550260, Lon: 73.893663 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:57:13:999][STATUS] GPS: FIX OK | Lat: 18.550272, Lon: 73.893723 | Speed: 2.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:57:18:982][STATUS] GPS: FIX OK | Lat: 18.550272, Lon: 73.893740 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:57:24:000][STATUS] GPS: FIX OK | Lat: 18.550272, Lon: 73.893740 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:57:28:998][STATUS] GPS: FIX OK | Lat: 18.550272, Lon: 73.893740 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:57:34:008][STATUS] GPS: FIX OK | Lat: 18.550272, Lon: 73.893740 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:57:38:997][STATUS] GPS: FIX OK | Lat: 18.550272, Lon: 73.893740 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:57:43:998][STATUS] GPS: FIX OK | Lat: 18.550272, Lon: 73.893740 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:57:48:982][STATUS] GPS: FIX OK | Lat: 18.550272, Lon: 73.893740 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:57:53:997][STATUS] GPS: FIX OK | Lat: 18.550272, Lon: 73.893740 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:57:58:997][STATUS] GPS: FIX OK | Lat: 18.550272, Lon: 73.893740 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:58:04:002][STATUS] GPS: FIX OK | Lat: 18.550360, Lon: 73.893853 | Speed: 9.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:58:08:999][STATUS] GPS: FIX OK | Lat: 18.550445, Lon: 73.893935 | Speed: 4.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:58:13:994][STATUS] GPS: FIX OK | Lat: 18.550483, Lon: 73.894015 | Speed: 3.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:58:18:991][STATUS] GPS: FIX OK | Lat: 18.550453, Lon: 73.894047 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:58:23:983][STATUS] GPS: FIX OK | Lat: 18.550510, Lon: 73.894113 | Speed: 8.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:58:28:982][STATUS] GPS: FIX OK | Lat: 18.550587, Lon: 73.894223 | Speed: 10.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:58:33:994][STATUS] GPS: FIX OK | Lat: 18.550677, Lon: 73.894305 | Speed: 5.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:58:39:000][STATUS] GPS: FIX OK | Lat: 18.550690, Lon: 73.894295 | Speed: 2.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:58:43:995][STATUS] GPS: FIX OK | Lat: 18.550678, Lon: 73.894307 | Speed: 3.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:58:49:003][STATUS] GPS: FIX OK | Lat: 18.550680, Lon: 73.894328 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:58:53:996][STATUS] GPS: FIX OK | Lat: 18.550678, Lon: 73.894337 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:58:58:997][STATUS] GPS: FIX OK | Lat: 18.550645, Lon: 73.894377 | Speed: 4.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:59:03:998][STATUS] GPS: FIX OK | Lat: 18.550662, Lon: 73.894433 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:59:08:997][STATUS] GPS: FIX OK | Lat: 18.550665, Lon: 73.894432 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:59:13:997][STATUS] GPS: FIX OK | Lat: 18.550665, Lon: 73.894432 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:59:18:998][STATUS] GPS: FIX OK | Lat: 18.550665, Lon: 73.894432 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:59:23:993][STATUS] GPS: FIX OK | Lat: 18.550665, Lon: 73.894432 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:59:28:992][STATUS] GPS: FIX OK | Lat: 18.550720, Lon: 73.894453 | Speed: 2.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:59:33:998][STATUS] GPS: FIX OK | Lat: 18.550733, Lon: 73.894447 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:59:38:996][STATUS] GPS: FIX OK | Lat: 18.550733, Lon: 73.894447 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:59:43:980][STATUS] GPS: FIX OK | Lat: 18.550688, Lon: 73.894485 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:59:48:996][STATUS] GPS: FIX OK | Lat: 18.550688, Lon: 73.894485 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:59:53:996][STATUS] GPS: FIX OK | Lat: 18.550688, Lon: 73.894485 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_16:59:58:992][STATUS] GPS: FIX OK | Lat: 18.550688, Lon: 73.894485 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:00:04:000][STATUS] GPS: FIX OK | Lat: 18.550688, Lon: 73.894485 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:00:08:988][STATUS] GPS: FIX OK | Lat: 18.550688, Lon: 73.894485 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:00:13:996][STATUS] GPS: FIX OK | Lat: 18.550688, Lon: 73.894485 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:00:18:996][STATUS] GPS: FIX OK | Lat: 18.550688, Lon: 73.894485 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:00:23:996][STATUS] GPS: FIX OK | Lat: 18.550688, Lon: 73.894485 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:00:28:995]ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿTATUS] GPS: FIX OK | Lat: 18.550688, Lon: 73.894485 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:00:33:995][STATUS] GPS: FIX OK | Lat: 18.550802, Lon: 73.894460 | Speed: 4.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:00:38:985][STATUS] GPS: FIX OK | Lat: 18.550883, Lon: 73.894490 | Speed: 4.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:00:43:995][STATUS] GPS: FIX OK | Lat: 18.550947, Lon: 73.894550 | Speed: 5.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:00:48:981][STATUS] GPS: FIX OK | Lat: 18.550997, Lon: 73.894622 | Speed: 4.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:00:53:994][STATUS] GPS: FIX OK | Lat: 18.551003, Lon: 73.894753 | Speed: 3.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:00:58:988][STATUS] GPS: FIX OK | Lat: 18.550988, Lon: 73.894810 | Speed: 3.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:01:03:994][STATUS] GPS: FIX OK | Lat: 18.550987, Lon: 73.894818 | Speed: 1.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:01:08:997][STATUS] GPS: FIX OK | Lat: 18.550982, Lon: 73.894857 | Speed: 4.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:01:13:998][STATUS] GPS: FIX OK | Lat: 18.550987, Lon: 73.894893 | Speed: 1.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:01:18:978][STATUS] GPS: FIX OK | Lat: 18.550982, Lon: 73.894913 | Speed: 2.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:01:23:996][STATUS] GPS: FIX OK | Lat: 18.550998, Lon: 73.894932 | Speed: 1.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:01:28:992][STATUS] GPS: FIX OK | Lat: 18.550992, Lon: 73.894930 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:01:33:979][STATUS] GPS: FIX OK | Lat: 18.550957, Lon: 73.894952 | Speed: 3.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:01:38:981][STATUS] GPS: FIX OK | Lat: 18.550983, Lon: 73.894953 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:01:43:977][STATUS] GPS: FIX OK | Lat: 18.551038, Lon: 73.894993 | Speed: 6.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:01:48:995][STATUS] GPS: FIX OK | Lat: 18.551183, Lon: 73.895020 | Speed: 4.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:01:53:995][STATUS] GPS: FIX OK | Lat: 18.551275, Lon: 73.895073 | Speed: 7.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:01:58:995][STATUS] GPS: FIX OK | Lat: 18.551335, Lon: 73.895128 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:02:03:996][STATUS] GPS: FIX OK | Lat: 18.551338, Lon: 73.895130 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:02:08:995][STATUS] GPS: FIX OK | Lat: 18.551338, Lon: 73.895130 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:02:13:994][STATUS] GPS: FIX OK | Lat: 18.551338, Lon: 73.895130 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:02:18:980][STATUS] GPS: FIX OK | Lat: 18.551338, Lon: 73.895130 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:02:24:003][STATUS] GPS: FIX OK | Lat: 18.551338, Lon: 73.895130 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:02:28:982][STATUS] GPS: FIX OK | Lat: 18.551338, Lon: 73.895130 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:02:33:996][STATUS] GPS: FIX OK | Lat: 18.551338, Lon: 73.895130 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:02:38:977][STATUS] GPS: FIX OK | Lat: 18.551338, Lon: 73.895130 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:02:43:994][STATUS] GPS: FIX OK | Lat: 18.551338, Lon: 73.895130 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:02:48:996][STATUS] GPS: FIX OK | Lat: 18.551328, Lon: 73.895160 | Speed: 5.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:02:53:995][STATUS] GPS: FIX OK | Lat: 18.551553, Lon: 73.895213 | Speed: 18.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:02:58:979][STATUS] GPS: FIX OK | Lat: 18.551725, Lon: 73.895415 | Speed: 21.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:03:02:054][AUDIO] Playing: /0001.mp3
+[2026-08-10_17:03:02:054][ZONE] Entry: GREEN ZONE
+[2026-08-10_17:03:04:017][STATUS] GPS: FIX OK | Lat: 18.551942, Lon: 73.895717 | Speed: 28.6 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:03:04:017][AUDIO] Finished playing file.
+[2026-08-10_17:03:06:944][LANG] Language changed on-the-fly to: HINDI
+[2026-08-10_17:03:06:944][AUDIO] Playing: /0101.mp3
+[2026-08-10_17:03:08:993][STATUS] GPS: FIX OK | Lat: 18.552108, Lon: 73.895967 | Speed: 21.8 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_17:03:09:523][AUDIO] Finished playing file.
+[2026-08-10_17:03:11:122][LANG] Language changed on-the-fly to: MARATHI
+[2026-08-10_17:03:11:122][AUDIO] Playing: /0201.mp3
+[2026-08-10_17:03:14:005][STATUS] GPS: FIX OK | Lat: 18.552245, Lon: 73.896227 | Speed: 17.9 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:03:14:536][AUDIO] Finished playing file.
+[2026-08-10_17:03:18:995][STATUS] GPS: FIX OK | Lat: 18.552257, Lon: 73.896270 | Speed: 4.1 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:03:23:995][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896277 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:03:28:996][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:03:33:994][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:03:38:996][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:03:43:984][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:03:48:998][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:03:53:993][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:03:58:995][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:04:03:995][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:04:08:994][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:04:13:993][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:04:18:996][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:04:23:987][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:04:29:000][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:04:33:994][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:04:38:992][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:04:43:977][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:04:48:995][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:04:53:993][STATUS] GPS: FIX OK | Lat: 18.552233, Lon: 73.896280 | Speed: 0.0 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:04:58:994][STATUS] GPS: FIX OK | Lat: 18.552248, Lon: 73.896352 | Speed: 9.3 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:05:03:995][STATUS] GPS: FIX OK | Lat: 18.552320, Lon: 73.896528 | Speed: 23.7 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:05:08:992][STATUS] GPS: FIX OK | Lat: 18.552425, Lon: 73.896918 | Speed: 28.9 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:05:14:001][STATUS] GPS: FIX OK | Lat: 18.552553, Lon: 73.897315 | Speed: 31.6 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:05:18:994][STATUS] GPS: FIX OK | Lat: 18.552683, Lon: 73.897708 | Speed: 32.1 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:05:23:993][STATUS] GPS: FIX OK | Lat: 18.552812, Lon: 73.898123 | Speed: 33.7 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:05:28:993][STATUS] GPS: FIX OK | Lat: 18.552917, Lon: 73.898522 | Speed: 26.3 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:05:33:985][STATUS] GPS: FIX OK | Lat: 18.553015, Lon: 73.898830 | Speed: 23.7 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:05:38:993][STATUS] GPS: FIX OK | Lat: 18.553077, Lon: 73.899090 | Speed: 20.1 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:05:43:983][STATUS] GPS: FIX OK | Lat: 18.553188, Lon: 73.899375 | Speed: 23.6 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:05:48:994][STATUS] GPS: FIX OK | Lat: 18.553312, Lon: 73.899635 | Speed: 20.2 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:05:53:977][STATUS] GPS: FIX OK | Lat: 18.553395, Lon: 73.899832 | Speed: 17.8 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:05:58:994][STATUS] GPS: FIX OK | Lat: 18.553507, Lon: 73.900138 | Speed: 30.2 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:06:03:992][STATUS] GPS: FIX OK | Lat: 18.553655, Lon: 73.900563 | Speed: 33.5 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:06:08:993][STATUS] GPS: FIX OK | Lat: 18.553795, Lon: 73.900978 | Speed: 35.7 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:06:13:993][STATUS] GPS: FIX OK | Lat: 18.553930, Lon: 73.901465 | Speed: 38.2 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:06:18:994][STATUS] GPS: FIX OK | Lat: 18.554075, Lon: 73.901947 | Speed: 34.3 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:06:23:982][STATUS] GPS: FIX OK | Lat: 18.554208, Lon: 73.902365 | Speed: 28.2 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:06:28:994][STATUS] GPS: FIX OK | Lat: 18.554305, Lon: 73.902753 | Speed: 31.3 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:06:33:991][STATUS] GPS: FIX OK | Lat: 18.554417, Lon: 73.903192 | Speed: 36.1 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:06:38:976][STATUS] GPS: FIX OK | Lat: 18.554535, Lon: 73.903643 | Speed: 34.1 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:06:43:992][STATUS] GPS: FIX OK | Lat: 18.554657, Lon: 73.904110 | Speed: 39.3 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:06:48:993][STATUS] GPS: FIX OK | Lat: 18.554823, Lon: 73.904652 | Speed: 42.8 km/h | Zone: GREEN (Limit: 65) | Route: Route510 | Lang: MR | Overspeed: NO
+[2026-08-10_17:06:49:073][AUDIO] Playing: /0202.mp3
+[2026-08-10_17:06:49:073][ZONE] Entry: YELLOW ZONE
+[2026-08-10_17:06:49:073][AUDIO] Playing: /0204.mp3
+[2026-08-10_17:06:49:073][ALERT] OVERSPEED DETECTED! Speed: 41.56 km/h, Limit: 40.00 km/h
+[2026-08-10_17:06:53:256][AUDIO] Finished playing file.
+[2026-08-10_17:06:54:020][STATUS] GPS: FIX OK | Lat: 18.555007, Lon: 73.905153 | Speed: 40.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: MR | Overspeed: YES
+[2026-08-10_17:06:54:020][SPEED] Normalized: 38.82 km/h
+[2026-08-10_17:06:55:741][LANG] Language changed on-the-fly to: ENGLISH
+[2026-08-10_17:06:55:741][AUDIO] Playing: /0002.mp3
+[2026-08-10_17:06:58:032][AUDIO] Finished playing file.
+[2026-08-10_17:06:58:995][STATUS] GPS: FIX OK | Lat: 18.555143, Lon: 73.905597 | Speed: 35.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:07:03:993][STATUS] GPS: FIX OK | Lat: 18.555303, Lon: 73.905997 | Speed: 31.4 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:07:08:975][STATUS] GPS: FIX OK | Lat: 18.555475, Lon: 73.906272 | Speed: 13.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:07:13:992][STATUS] GPS: FIX OK | Lat: 18.555555, Lon: 73.906285 | Speed: 6.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:07:18:983][STATUS] GPS: FIX OK | Lat: 18.555705, Lon: 73.906335 | Speed: 16.6 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:07:23:992][STATUS] GPS: FIX OK | Lat: 18.555930, Lon: 73.906372 | Speed: 13.6 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:07:29:003][STATUS] GPS: FIX OK | Lat: 18.556168, Lon: 73.906347 | Speed: 19.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:07:33:990][STATUS] GPS: FIX OK | Lat: 18.556552, Lon: 73.906380 | Speed: 29.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:07:36:702][LANG] Language changed on-the-fly to: HINDI
+[2026-08-10_17:07:36:702][AUDIO] Playing: /0102.mp3
+[2026-08-10_17:07:38:993][STATUS] GPS: FIX OK | Lat: 18.557017, Lon: 73.906422 | Speed: 37.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_17:07:39:648][AUDIO] Finished playing file.
+[2026-08-10_17:07:41:053][AUDIO] Playing: /0104.mp3
+[2026-08-10_17:07:41:053][ALERT] OVERSPEED DETECTED! Speed: 40.24 km/h, Limit: 40.00 km/h
+[2026-08-10_17:07:43:992][STATUS] GPS: FIX OK | Lat: 18.557533, Lon: 73.906367 | Speed: 42.4 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_17:07:45:917][AUDIO] Finished playing file.
+[2026-08-10_17:07:48:993][STATUS] GPS: FIX OK | Lat: 18.558198, Lon: 73.906253 | Speed: 45.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_17:07:53:993][STATUS] GPS: FIX OK | Lat: 18.558880, Lon: 73.906302 | Speed: 48.4 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_17:07:58:981][STATUS] GPS: FIX OK | Lat: 18.559540, Lon: 73.906367 | Speed: 51.7 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_17:08:03:992][STATUS] GPS: FIX OK | Lat: 18.560207, Lon: 73.906437 | Speed: 52.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_17:08:09:003][STATUS] GPS: FIX OK | Lat: 18.560855, Lon: 73.906518 | Speed: 52.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_17:08:13:976][STATUS] GPS: FIX OK | Lat: 18.561515, Lon: 73.906578 | Speed: 48.5 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_17:08:18:031][SPEED] Normalized: 36.24 km/h
+[2026-08-10_17:08:18:994][STATUS] GPS: FIX OK | Lat: 18.562063, Lon: 73.906617 | Speed: 36.2 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_17:08:23:974][STATUS] GPS: FIX OK | Lat: 18.562355, Lon: 73.906633 | Speed: 14.8 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_17:08:28:992][STATUS] GPS: FIX OK | Lat: 18.562553, Lon: 73.906638 | Speed: 21.0 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_17:08:33:992][STATUS] GPS: FIX OK | Lat: 18.562962, Lon: 73.906707 | Speed: 39.1 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: NO
+[2026-08-10_17:08:35:050][AUDIO] Playing: /0104.mp3
+[2026-08-10_17:08:35:050][ALERT] OVERSPEED DETECTED! Speed: 41.04 km/h, Limit: 40.00 km/h
+[2026-08-10_17:08:38:997][STATUS] GPS: FIX OK | Lat: 18.563465, Lon: 73.906773 | Speed: 40.3 km/h | Zone: YELLOW (Limit: 40) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_17:08:39:939][AUDIO] Finished playing file.
+[2026-08-10_17:08:42:047][AUDIO] Playing: /0103.mp3
+[2026-08-10_17:08:42:047][ZONE] Entry: RED ZONE
+[2026-08-10_17:08:43:993][STATUS] GPS: FIX OK | Lat: 18.563993, Lon: 73.906845 | Speed: 42.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: HI | Overspeed: YES
+[2026-08-10_17:08:44:374][AUDIO] Finished playing file.
+[2026-08-10_17:08:45:499][LANG] Language changed on-the-fly to: MARATHI
+[2026-08-10_17:08:45:499][AUDIO] Playing: /0203.mp3
+[2026-08-10_17:08:48:749][AUDIO] Finished playing file.
+[2026-08-10_17:08:49:002][STATUS] GPS: FIX OK | Lat: 18.564490, Lon: 73.906925 | Speed: 40.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: MR | Overspeed: YES
+[2026-08-10_17:08:49:033][LANG] Language changed on-the-fly to: ENGLISH
+[2026-08-10_17:08:49:033][AUDIO] Playing: /0003.mp3
+[2026-08-10_17:08:51:232][AUDIO] Finished playing file.
+[2026-08-10_17:08:53:016][SPEED] Normalized: 26.04 km/h
+[2026-08-10_17:08:53:998][STATUS] GPS: FIX OK | Lat: 18.564903, Lon: 73.906895 | Speed: 26.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:08:58:983][STATUS] GPS: FIX OK | Lat: 18.565025, Lon: 73.906793 | Speed: 4.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:09:03:999][STATUS] GPS: FIX OK | Lat: 18.565110, Lon: 73.906792 | Speed: 7.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:09:08:999][STATUS] GPS: FIX OK | Lat: 18.565177, Lon: 73.906922 | Speed: 12.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:09:13:982][STATUS] GPS: FIX OK | Lat: 18.565188, Lon: 73.907110 | Speed: 13.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:09:18:997][STATUS] GPS: FIX OK | Lat: 18.565167, Lon: 73.907340 | Speed: 19.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:09:24:051][STATUS] GPS: FIX OK | Lat: 18.565143, Lon: 73.907702 | Speed: 29.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:09:24:051][AUDIO] Playing: /0004.mp3
+[2026-08-10_17:09:24:051][ALERT] OVERSPEED DETECTED! Speed: 30.91 km/h, Limit: 30.00 km/h
+[2026-08-10_17:09:25:025][SPEED] Normalized: 29.54 km/h
+[2026-08-10_17:09:27:387][AUDIO] Finished playing file.
+[2026-08-10_17:09:29:046][STATUS] GPS: FIX OK | Lat: 18.565170, Lon: 73.908100 | Speed: 29.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:09:29:046][AUDIO] Playing: /0004.mp3
+[2026-08-10_17:09:29:046][ALERT] OVERSPEED DETECTED! Speed: 33.06 km/h, Limit: 30.00 km/h
+[2026-08-10_17:09:32:390][AUDIO] Finished playing file.
+[2026-08-10_17:09:34:000][STATUS] GPS: FIX OK | Lat: 18.565173, Lon: 73.908533 | Speed: 31.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_17:09:38:998][STATUS] GPS: FIX OK | Lat: 18.565160, Lon: 73.909135 | Speed: 38.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_17:09:44:000][STATUS] GPS: FIX OK | Lat: 18.565193, Lon: 73.909705 | Speed: 37.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_17:09:48:996][STATUS] GPS: FIX OK | Lat: 18.565198, Lon: 73.910190 | Speed: 33.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_17:09:50:026][SPEED] Normalized: 28.69 km/h
+[2026-08-10_17:09:53:998][STATUS] GPS: FIX OK | Lat: 18.565185, Lon: 73.910540 | Speed: 16.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:09:58:979][STATUS] GPS: FIX OK | Lat: 18.565190, Lon: 73.910697 | Speed: 3.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:10:03:997][STATUS] GPS: FIX OK | Lat: 18.565302, Lon: 73.910748 | Speed: 12.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:10:08:981][STATUS] GPS: FIX OK | Lat: 18.565423, Lon: 73.910768 | Speed: 10.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:10:13:997][STATUS] GPS: FIX OK | Lat: 18.565657, Lon: 73.910755 | Speed: 16.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:10:18:998][STATUS] GPS: FIX OK | Lat: 18.565778, Lon: 73.910717 | Speed: 8.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:10:23:981][STATUS] GPS: FIX OK | Lat: 18.565975, Lon: 73.910727 | Speed: 18.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:10:28:995][STATUS] GPS: FIX OK | Lat: 18.566252, Lon: 73.910718 | Speed: 19.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:10:33:995][STATUS] GPS: FIX OK | Lat: 18.566537, Lon: 73.910767 | Speed: 18.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:10:39:006][STATUS] GPS: FIX OK | Lat: 18.566885, Lon: 73.910777 | Speed: 27.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:10:43:999][STATUS] GPS: FIX OK | Lat: 18.567255, Lon: 73.910828 | Speed: 27.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:10:48:996][STATUS] GPS: FIX OK | Lat: 18.567570, Lon: 73.910843 | Speed: 21.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:10:54:008][STATUS] GPS: FIX OK | Lat: 18.567857, Lon: 73.910853 | Speed: 24.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:10:58:998][STATUS] GPS: FIX OK | Lat: 18.568128, Lon: 73.910877 | Speed: 14.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:11:03:997][STATUS] GPS: FIX OK | Lat: 18.568215, Lon: 73.910912 | Speed: 4.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:11:08:998][STATUS] GPS: FIX OK | Lat: 18.568218, Lon: 73.911007 | Speed: 6.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:11:13:998][STATUS] GPS: FIX OK | Lat: 18.568193, Lon: 73.911208 | Speed: 16.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:11:18:992][STATUS] GPS: FIX OK | Lat: 18.568143, Lon: 73.911475 | Speed: 20.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:11:24:001][STATUS] GPS: FIX OK | Lat: 18.568143, Lon: 73.911697 | Speed: 15.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:11:28:994][STATUS] GPS: FIX OK | Lat: 18.568075, Lon: 73.912053 | Speed: 27.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:11:30:046][AUDIO] Playing: /0004.mp3
+[2026-08-10_17:11:30:046][ALERT] OVERSPEED DETECTED! Speed: 30.04 km/h, Limit: 30.00 km/h
+[2026-08-10_17:11:33:389][AUDIO] Finished playing file.
+[2026-08-10_17:11:33:977][STATUS] GPS: FIX OK | Lat: 18.568015, Lon: 73.912498 | Speed: 31.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_17:11:35:012][SPEED] Normalized: 28.69 km/h
+[2026-08-10_17:11:38:998][STATUS] GPS: FIX OK | Lat: 18.567980, Lon: 73.912900 | Speed: 25.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:11:44:033][STATUS] GPS: FIX OK | Lat: 18.567988, Lon: 73.913310 | Speed: 29.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:11:44:033][AUDIO] Playing: /0004.mp3
+[2026-08-10_17:11:44:033][ALERT] OVERSPEED DETECTED! Speed: 30.00 km/h, Limit: 30.00 km/h
+[2026-08-10_17:11:45:015][SPEED] Normalized: 29.54 km/h
+[2026-08-10_17:11:47:377][AUDIO] Finished playing file.
+[2026-08-10_17:11:48:997][STATUS] GPS: FIX OK | Lat: 18.567925, Lon: 73.913702 | Speed: 26.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:11:53:997][STATUS] GPS: FIX OK | Lat: 18.567928, Lon: 73.913872 | Speed: 12.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:11:58:988][STATUS] GPS: FIX OK | Lat: 18.567910, Lon: 73.914018 | Speed: 10.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:12:03:997][STATUS] GPS: FIX OK | Lat: 18.567908, Lon: 73.914235 | Speed: 12.4 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:12:08:996][STATUS] GPS: FIX OK | Lat: 18.567913, Lon: 73.914512 | Speed: 23.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:12:13:996][STATUS] GPS: FIX OK | Lat: 18.567855, Lon: 73.914890 | Speed: 25.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:12:18:996][STATUS] GPS: FIX OK | Lat: 18.567887, Lon: 73.915178 | Speed: 18.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:12:23:981][STATUS] GPS: FIX OK | Lat: 18.567905, Lon: 73.915502 | Speed: 22.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:12:27:050][AUDIO] Playing: /0004.mp3
+[2026-08-10_17:12:27:050][ALERT] OVERSPEED DETECTED! Speed: 30.32 km/h, Limit: 30.00 km/h
+[2026-08-10_17:12:28:996][STATUS] GPS: FIX OK | Lat: 18.567907, Lon: 73.915910 | Speed: 30.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: YES
+[2026-08-10_17:12:30:391][AUDIO] Finished playing file.
+[2026-08-10_17:12:32:014][SPEED] Normalized: 29.22 km/h
+[2026-08-10_17:12:33:996][STATUS] GPS: FIX OK | Lat: 18.567837, Lon: 73.916350 | Speed: 28.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:12:38:997][STATUS] GPS: FIX OK | Lat: 18.567758, Lon: 73.916630 | Speed: 18.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:12:44:004][STATUS] GPS: FIX OK | Lat: 18.567735, Lon: 73.916948 | Speed: 22.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:12:48:999][STATUS] GPS: FIX OK | Lat: 18.567710, Lon: 73.917255 | Speed: 20.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:12:53:994][STATUS] GPS: FIX OK | Lat: 18.567668, Lon: 73.917532 | Speed: 17.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:12:58:978][STATUS] GPS: FIX OK | Lat: 18.567605, Lon: 73.917822 | Speed: 14.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:13:03:998][STATUS] GPS: FIX OK | Lat: 18.567540, Lon: 73.918027 | Speed: 10.2 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:13:08:996][STATUS] GPS: FIX OK | Lat: 18.567520, Lon: 73.918243 | Speed: 12.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:13:13:981][STATUS] GPS: FIX OK | Lat: 18.567512, Lon: 73.918470 | Speed: 9.8 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:13:18:998][STATUS] GPS: FIX OK | Lat: 18.567617, Lon: 73.918523 | Speed: 9.7 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:13:24:003][STATUS] GPS: FIX OK | Lat: 18.567865, Lon: 73.918577 | Speed: 14.9 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:13:28:996][STATUS] GPS: FIX OK | Lat: 18.567980, Lon: 73.918708 | Speed: 5.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:13:34:007][STATUS] GPS: FIX OK | Lat: 18.567972, Lon: 73.918707 | Speed: 0.0 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:13:38:996][STATUS] GPS: FIX OK | Lat: 18.567972, Lon: 73.918718 | Speed: 0.3 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:13:43:995][STATUS] GPS: FIX OK | Lat: 18.567963, Lon: 73.918887 | Speed: 12.1 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:13:48:980][STATUS] GPS: FIX OK | Lat: 18.567965, Lon: 73.919032 | Speed: 8.6 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
+[2026-08-10_17:13:53:995][STATUS] GPS: FIX OK | Lat: 18.567962, Lon: 73.919102 | Speed: 3.5 km/h | Zone: RED (Limit: 30) | Route: Route510 | Lang: EN | Overspeed: NO
